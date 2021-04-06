@@ -1,2 +1,5 @@
-# laravel8-boilerplate
-boilerplate for laravel 8
+## Installation
+
+* docker-compose up --build
+* bash init.sh
+* bash cmd.sh npm run watch
