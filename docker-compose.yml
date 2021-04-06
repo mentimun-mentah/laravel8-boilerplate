@@ -41,6 +41,7 @@ services:
       dockerfile: php.dockerfile
     volumes:
       - ./src:/var/www/html:delegated
+    command: ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisord.conf"]
 
   composer:
     build:
